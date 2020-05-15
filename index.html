@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Minecraft сервер на домашнем пк</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  	
+</head>
+<body>
+
+<div class="jumbotron text-center">
+	<h2> Minecraft сервер на домашнем пк </h2>
+	<p> Инструкция как установаить на свой компьютер игровой сервер Minecraft и играть с друзьями (2020-04-30)</p>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h3> Инструкции с ru-m.org </h3>
+			<p>1) Скачать версию сервера <a href="https://ru-m.org/">
+			скачать Forge</a> https://ru-m.org/engine/download.php?id=12521
+			<br/>
+			2) Распаковать архив в отдельную папку
+			<br/>
+			3) Запустить файл start.bat
+			- появится файл 'eula.txt', который нужно открыть и поменять занчение false на true и сохранить файл
+			<br/>
+			4) Запустить файл start.bat и ждем завершения "Done"
+			<br/>
+			5) Открыть файл "server.properies", найти параметр "online-mode=", поменять значение с true на false
+			<br/>
+			6) Теперь, чтобы зайти на свой сервер, нужно скачать клиент с установленным Forge, например
+			TLauncher. Скачать клиент, зайти в игру,в сетевую, добавить новый сервер IP - localhost
+			</p>
+			<h3>Инструкция как играть через Интернет с помощью Hamachi</h3>
+			<p>
+			Нужно поменять localhost на IP сервера, который добывается следующим образом
+			<br/>
+			1) Скачать пробную версию Hamachi с офф.сайта
+			<br/>
+			2) Следовать инструкциям по установки и регистрации. Когда программа установится - запустить ее, нажать на "Создать новую сеть", ввести любые данные, подключиться к сети. Создастся новая сеть
+			<br/>
+			3) Устанавить Hamachi другим игрокам, зарегистрироваться, подключиться к созданной на предыдущем этапе сети - ввести название и пароль. В Hamachi администратора отобразится ник нового подключенного игрока
+			<br/>
+			4) Скопировать адрес IPv4 из Hamachi администратора сервера. Открыть файл в папке Minecraft сервера  "server.properties". Найти параметр "server-ip=", вставить скопированный адрес IPv4 из Hamachi
+			<br/>
+			5) Запустить сервер Minecraft - start.bat
+			<br/>
+			6) Скопированный адрес IPv4 из Hamachi отправить игрокам, чтобы они ввели его как адрес сервера и подключились к игре!
+			</p>
+			<p>
+			    Форум <a href="http://domain1808038.ru.host1808038.serv76.hostland.pro/">перейти к общению</a>
+			</p>
+		</div>	
+
+	</div>				
+</div>	 	
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(62468857, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/62468857" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
