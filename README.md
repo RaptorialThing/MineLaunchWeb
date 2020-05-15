@@ -1,4 +1,4 @@
-# MinecraftLauncherWebPart
+# MineLaunchWeb
 web part of minecraft laucher for server
 Be free to participate to project.
 
